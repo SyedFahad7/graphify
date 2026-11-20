@@ -1,0 +1,27 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "Graphify CLI",
+  "description": "Shared codebase context for coding agents and humans. Graphify CLI maps a repository's code, docs, PDFs, images and video into a typed knowledge graph, with code parsed locally by tree-sitter, that agents query over MCP or the CLI instead of grepping files. It can build a markdown Wiki from the graph and review pull requests with graph context. Hosted Graphify at graphify.com adds shared team Memory and automatic PR reviews on the same graph.",
+  "folders": [],
+  "excludeFolders": [
+    "graphify",
+    "tools",
+    "tests",
+    "scripts",
+    ".github",
+    "docs/translations",
+    "docs/superpowers",
+    "worked/**/raw"
+  ],
+  "excludeFiles": [
+    "CHANGELOG.md",
+    "LICENSE.md",
+    "CODE_OF_CONDUCT.md",
+    "NEWS.md",
+    "AGENTS.md",
+    "GEMINI.md",
+    "RELEASING.md",
+    "SECURITY.md",
+    "SUPPORT.md"
+  ]
+}
